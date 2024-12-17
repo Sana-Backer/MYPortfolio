@@ -1,20 +1,20 @@
 import React from 'react';
 import '../styles/about.css'
-import about from '../assets/aboutimg.jpg'
+import about from '../assets/about.jpg'
 const About = () => {
   return (
     <div className="container my-5" id='about'>
       {/* Why Hire Me Section */}
       <div className="row bg-dark text-light border rounded p-4">
-        <div className="col-12 col-lg-6 mb-3 mb-lg-0 text-center">
+        <div className="col-12 col-lg-5 mb-3 mb-lg-0 text-center">
           <img 
             src={about} 
             alt="Profile or Service" 
             className="img-fluid rounded" 
-            style={{ maxHeight: '300px', objectFit: 'cover' }} 
+            style={{ maxHeight: '350px', width:"400px", objectFit: 'cover' }} 
           />
         </div>
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-7">
   <h4 className='text-center'>Why Hire Me?</h4>
   <p>
     As a passionate React developer, I thrive on building dynamic, responsive, and user-centric web applications. 

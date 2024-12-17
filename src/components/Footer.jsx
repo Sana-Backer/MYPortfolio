@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -12,6 +13,7 @@ const Footer = () => {
         <a href="tel:7902524437" target="_blank" style={{color:' #fff', margin: '0 10px', textDecoration: 'none'}}><i class="fa-solid fa-phone me-2"></i></a>
         <a href="mailto:sanaaabi05@gmail.com"  style={{color:' #fff', margin: '0 10px', textDecoration: 'none'}}><i class="fa-solid fa-envelope me-2"></i></a>
         <a href="https://github.com/Sana-Backer" target="_blank" style={{color:' #fff', margin: '0 10px', textDecoration: 'none'}}> <i class="fa-brands fa-github"></i></a>
+
     </div>
    
 </div>

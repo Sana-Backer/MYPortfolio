@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
-import myPhoto from '../assets/photo.png';
+import myPhoto from '../assets/myphoto.jpg';
 import myCv from '../assets/Sana-Thasneem-K-A-CV.pdf'
 const Home = () => {
   return (
@@ -21,7 +21,7 @@ const Home = () => {
           <div className="col-lg-6 text-center">
             <img 
               className='img-fluid rounded-circle shadow-lg mt-4' 
-              style={{ width: '300px', height: '300px', objectFit: 'cover' }} 
+              style={{ width: '350px', height: '350px', objectFit: 'cover' }} 
               src={myPhoto} 
               alt="myPhoto" 
             />
