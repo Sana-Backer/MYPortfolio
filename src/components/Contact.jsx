@@ -19,7 +19,6 @@ const Contact = () => {
       reqBody.append("email", email);
       reqBody.append("phone", phone);
       reqBody.append("message", message);
-      alert("message sent")
 
     } else {
       alert("Please fill the form completely.");
